@@ -60,7 +60,7 @@ app.post("/cadastrousuario", async (req, res) => {
   const email = req.body.email; 
   const senha = req.body.senha; 
 
-   
+ 
 
     
 
@@ -82,6 +82,7 @@ app.post("/cadastrousuario", async (req, res) => {
 }); 
 
   
+
 
   
 
@@ -118,11 +119,19 @@ app.post("/cadastroprodutoconstrucao", async (req, res) => {
 
   }); 
 
-  
+ 
 
 //rota padrao 
+app.get("/cadastrousuario", async (req, res) => { 
+    res.sendFile(__dirname + "/CadastroUsuario.html"); 
+  
+  }); 
+  app.get("/cadastroprodutoconstrucao", async (req, res) => { 
+    res.sendFile(__dirname + "/CadastrarProduto.html"); 
+  
+  }); 
 
-app.get("/", async (req, res) => { 
+app.get("/home", async (req, res) => { 
   res.sendFile(__dirname + "/index.html"); 
 
 }); 

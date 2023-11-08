@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuario</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<header>
+<div class=".container d-flex flex-column">
+    <nav class="navbar navbar-dark bg-dark p-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+          </a>
+          <div>
+            <form class="form-inline">
+                <button class=" btn btn-outline-light" type="button"><a class="text-decoration-none text-white" href="/home"> Home</a></button>
+                
+                <button class=" btn btn-outline-light " type="button">
+                    <a class="text-decoration-none text-white" href="/CadastrarProduto">Cadastrar Produto</a>
+                </button>
+              </form>
+          </div>
+      </button>
+    </nav>
+  </div>
+</header>
+
+
+<div class="container mt-5 bg-secondary rounded p-5 pb-3">
+    <h1>Cadastro de Usuario</h1>
+    <form action="/cadastrousuario" method="post">
+        <div class="form-group w-50">
+            <label for="Email">Email</label>
+            <input type="Email" class="form-control" id="Email" name="email" placeholder="Email">
+        </div>
+        <div class="form-group w-50">
+            <label for="senha">Senha:</label>
+            <input type="senha" class="form-control" id="senha" name="senha" placeholder="Senha">
+        </div>
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+</div>
+
+
+<footer class="bg-dark text-center text-white">
+
+    <div class="container p-4 pb-0">
+   
+      <section class="mb-4">
+    
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+      
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+      
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+   
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+   
+    </div>
+
+  
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+ 
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

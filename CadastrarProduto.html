@@ -16,12 +16,91 @@
               </a>
               <div>
                 <form class="form-inline">
-                    <button class="btn btn-outline-light" type="button">Entrar</button>
-                    <button class="btn btn-outline-light" type="button">Cadastrar Produto</button>
+                    <button class="btn btn-outline-light" type="button"> <a href="/home" class="text-decoration-none text-white">Home</a></button>
+                    <button class="btn btn-outline-light" type="button"> <a href="/CadastroUsuario" class="text-decoration-none text-white">Cadastrar Usuario</a></button>
                   </form>
               </div>
           </button>
         </nav>
       </div>
+
+      <main>
+        <div class="container mt-5 bg-secondary rounded p-5 pb-3">
+            <h1>Cadastro de Produtos</h1>
+            <form action="/cadastroprodutoconstrucao" method="post">
+                <div class="form-group w-50 p-2">
+                    <label for="id">Id do Produto:</label>
+                    <input type="id" class="form-control" id="id_produtoconstrucao" name="id_produtoconstrucao" placeholder="Id do Produto">
+                </div>
+                <div class="form-group w-50 p-2">
+                    <label for="descricao">Descricao:</label>
+                    <input type="descricao" class="form-control" id="descricao" name="descricao" placeholder="Descricao">
+                </div>
+                <div class="form-group w-50 p-2">
+                    <label for="fornecedor">Fornecedor:</label>
+                    <input type="fornecedor" class="form-control" id="fornecedor" name="fornecedor" placeholder="Fornecedor">
+                </div>
+                <div class="form-group w-50 p-2">
+                    <label for="datafabricacao">Data Fabricação:</label>
+                    <input type="datafabricacao" class="form-control" id="datafabricacao" name="datafabricacao" placeholder="Data de Fabricação">
+                </div>
+                <div class="form-group w-50 p-2">
+                    <label for="quantidadeestoque">Quantidade no Estoque:</label>
+                    <input type="quantidadeestoque" class="form-control" id="quantidadeestoque" name="quantidadeestoque" placeholder="Quantidade no Estoque">
+                </div>
+                    <div class="p-2 pl-5 ml-5">
+                        <input type="submit" value="Enviar">
+                </form>
+                </div>
+        </div>
+    
+
+      </main>
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
 </body>
 </html>
